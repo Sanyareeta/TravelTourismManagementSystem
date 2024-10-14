@@ -11,7 +11,7 @@ Conn(){
 //4-executing my sql query
 try{
  Class.forName("com.mysql.cj.jdbc.Driver") ; //name of driver-1
- c=DriverManager.getConnection("jdbc:mysql://localhost:3306/travelmanagementsystem","root","@_Sanya04082003");//-2
+ c=DriverManager.getConnection("jdbc:mysql://localhost:3306/travelmanagementsystem","root","");//-2
  
 
  s=c.createStatement();
